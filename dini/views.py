@@ -54,3 +54,7 @@ def registration(request):
 def show_users(request):
 	objs = Login.objects.all()
 	return render_to_response('show_user.html', {'data': objs})
+
+def sendmail(request):
+	# For future pusrpose
+	pass
