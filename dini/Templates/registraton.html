@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+</head>
+
+<body bgcolor="#99FFFF">
+	<!--{% include "login.html" %}
+	{% with 12345 as xy %}
+	<h1>{{xy}}</h1>
+	{% endwith %}-->
+	<h1 align="center">Registration</h1>
+	<form action="/register/" method="get">
+		<table border="1" align="center">
+			<tr><th>Name</th><td><input type="text" name="username" value="" /></td></tr>
+			<tr><th>Password</th><td><input type="password" name="pwd1" /></td></tr>
+			<tr><th>confirm Password</th><td><input type="password" name="pwd2" /></td></tr>
+			<tr><th>Address</th><td><textarea name="address" rows="5" cols="40">please write your full address here...</textarea></td></tr>
+			<tr><th>Mobile</th><td><input type="text" name="mob" /></td></tr>
+			<tr><th colspan="2"><input type="submit" value="Register" /></th></tr>
+		</table>
+		
+	</form>
+</body>
+</html>
